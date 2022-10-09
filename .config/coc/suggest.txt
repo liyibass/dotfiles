@@ -1,0 +1,17 @@
+v|vim-plug|file
+p|postgres|file
+W|Workspace|file
+|postgres|file
+c|compose-postgres|file
+Workspa|Workspace|file
+id_rsa_n|id_rsa_nf|file
+id_rsa_per|id_rsa_personal|file
+dock|docker-compose|around
+nginx|nginx|around
+meta|metadata|around
+nginx|nginx-deployment|around
+myapp|myapp-pod|around
+tans|translate|around
+port|ports|around
+resu|result|around
+postgres|postgres|buffer

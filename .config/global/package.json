@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "create-next-app": "^12.2.3",
+    "create-nx-workspace": "^14.5.2",
+    "nx": "^14.5.1"
+  }
+}
