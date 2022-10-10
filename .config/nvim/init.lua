@@ -2,7 +2,8 @@ vim.defer_fn(function()
   pcall(require, "impatient")
 end, 0)
 
-vim.wo.number = true
+vim.opt.relativenumber = true
+vim.opt.rnu = true
 
 require "core"
 require "core.options"
