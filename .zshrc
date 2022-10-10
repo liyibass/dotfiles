@@ -6,7 +6,7 @@ plugins=(git docker docker-compose)
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias git='LANG=en_GB git'
-alias vi='nvim'
+alias vi='lvim'
 alias dc='docker-compose'
 alias k='kubectl'
 export EDITOR='nvim'
