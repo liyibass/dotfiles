@@ -5,7 +5,6 @@ require 'nvim-treesitter.configs'.setup {
   }
 }
 
-
 -- eslint
 local status, null_ls = pcall(require, "null-ls")
 if (not status) then return end
@@ -50,5 +49,13 @@ git.setup({
     blame = "<Leader>gb",
     -- Open file/folder in git repository
     browse = "<Leader>go",
+  }
+})
+
+-- nvim tree
+require('nvim-tree').setup({
+  view = {
+    number = true;
+    relativenumber = true;
   }
 })
