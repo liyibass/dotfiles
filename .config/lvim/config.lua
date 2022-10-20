@@ -165,6 +165,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- Additional Plugins
 lvim.plugins = {
   { "folke/tokyonight.nvim" },
+  { "anuvyklack/pretty-fold.nvim" },
   {
     "folke/trouble.nvim",
     cmd = "TroubleToggle",

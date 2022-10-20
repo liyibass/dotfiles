@@ -1,0 +1,7 @@
+require('plugins.eslint')
+require('plugins.git')
+require('plugins.gitsigns')
+require('plugins.nvim-tree')
+require('plugins.nvim-treesitter')
+require('plugins.prettier')
+require('plugins.pretty-fold')
