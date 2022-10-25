@@ -188,3 +188,4 @@ lvim.plugins = {
 
 
 require('plugins')
+require('snippets')
